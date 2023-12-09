@@ -10,9 +10,10 @@ const Home = () => {
 
         <div className='max-w-screen-lg max-auto flex flex-col items-center justify-center h-full px-20 md:flex-row'>
             <div className='flex flex-col justify-center h-full'>
-                <h3 className='text-4xl sm:text-6xl font-bold text-yellow-50'> I am full stack developer</h3>
+                <h3 className='text-4xl sm:text-6xl font-bold text-yellow-50'> I am front end developer</h3>
+                {/* <h6 className='text-white text mt-2 shadow-md'>Crafting Dynamic Frontend Experiences: Design, Integration, & User Engagement</h6> */}
             
-            <p className='text-gray-500 py-4 max-w-md'>As a full-stack developer, I handle both frontend and backend development. My expertise spans creating intuitive user interfaces using cutting-edge frontend technologies while architecting robust and scalable backend systems. I leverage a diverse skill set to craft seamless experiences, ensuring smooth interactions for users while maintaining the integrity and efficiency of the underlying systems.
+            <p className='text-gray-500 py-4 max-w-md'>As a frontend developer with a keen eye for user interface design, I excel in seamlessly integrating APIs to enhance the functionality of web applications. I specialize in creating dynamic and responsive user experiences by connecting frontend interfaces with backend services through robust API integrations. My skill set includes not only crafting visually appealing interfaces but also ensuring efficient communication between the frontend and backend systems, resulting in a cohesive and feature-rich user experience.
 
             </p>
             

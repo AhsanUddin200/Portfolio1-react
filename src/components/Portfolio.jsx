@@ -6,6 +6,7 @@ import ecommorce from '../assets/portfolio/ecommorce.png';
 import github1 from '../assets/portfolio/github1.png';
 import weather from '../assets/portfolio/weather.png';
 
+
 const Portfolio = () => {
   const portfolios = [
     {
@@ -36,7 +37,7 @@ const Portfolio = () => {
       id: 5,
       src: github1,
       codeLink: 'https://github.com/AhsanUddin200/React-01-/blob/main/tic-tac-teo/src/Github.js',
-      demoLink: 'URL_TO_GITHUB1_DEMO' // Replace this with the demo link if available
+      demoLink: 'URL_TO_GITHUB1_DEMO' 
     },
     {
       id: 6,
