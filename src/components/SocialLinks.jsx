@@ -2,6 +2,7 @@ import React from 'react';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
+import { AiOutlineFolderOpen } from 'react-icons/ai';
 
 const SocialLinks = () => {
     const links = [
@@ -45,9 +46,21 @@ const SocialLinks = () => {
                 </>
             ),
             href: '/Ahsan Resume.pdf',
+            
+            download: true
+        },
+        {
+            id: 5,
+            child: (
+                <>
+                    C.Letter
+                    <AiOutlineFolderOpen size={25}/>
+                </>
+            ),
+            href: '/Cover Letter(Ahsan Nasir)',
             style: 'rounded-br-md',
             download: true
-        }
+        },
     ];
     
     return (

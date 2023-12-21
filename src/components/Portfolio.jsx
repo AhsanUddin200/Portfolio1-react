@@ -13,37 +13,37 @@ const Portfolio = () => {
       id: 1,
       src: bmi,
       codeLink: 'https://github.com/AhsanUddin200/React-01-/blob/main/tic-tac-teo/src/BMI.js',
-      demoLink: 'URL_TO_BMI_DEMO'
+     
     },
     {
       id: 2,
       src: news,
       codeLink: 'https://github.com/AhsanUddin200/React-01-/blob/main/tic-tac-teo/src/News.js',
-      demoLink: 'URL_TO_PRODUCT_DEMO'
+      
     },
     {
       id: 3,
       src: ebook,
       codeLink: 'https://github.com/AhsanUddin200/React-01-/blob/main/tic-tac-teo/src/Book.js',
-      demoLink: 'URL_TO_EBOOK_DEMO'
+      
     },
     {
       id: 4,
       src: ecommorce,
       codeLink: 'URL_TO_ECOMMERCE_CODE',
-      demoLink: 'URL_TO_ECOMMERCE_DEMO'
+    
     },
     {
       id: 5,
       src: github1,
       codeLink: 'https://github.com/AhsanUddin200/React-01-/blob/main/tic-tac-teo/src/Github.js',
-      demoLink: 'URL_TO_GITHUB1_DEMO' 
+       
     },
     {
       id: 6,
       src: weather,
       codeLink: 'https://github.com/AhsanUddin200/React-01-/blob/main/tic-tac-teo/src/Weather.js',
-      demoLink: 'URL_TO_WEATHER_DEMO'
+     
     },
   ];
 
@@ -60,9 +60,7 @@ const Portfolio = () => {
             <div key={id} className='shadow-md shadow-gray-700 rounded-sm'>
               <img src={src} alt='' className='rounded-md duration-300 hover:scale-95' />
               <div className='flex items-center justify-center'>
-                <a href={demoLink} target='_blank' rel='noopener noreferrer'>
-                  <button className='w-1/2 px-6 py-3 m-4 duration-300 hover:scale-125'>Demo</button>
-                </a>
+                
                 <a href={codeLink} target='_blank' rel='noopener noreferrer'>
                   <button className='w-1/2 px-6 py-3 m-4 duration-300 hover:scale-125'>Code</button>
                 </a>

@@ -9,6 +9,7 @@ import typescript from '../assets/typescript.png';
 import github from '../assets/github.png';
 import tailwindcss from '../assets/tailwindcss.png';
 import php from '../assets/php.png';
+import vite from '../assets/vite.png';
 
 const Experience = () => {
 
@@ -64,8 +65,8 @@ const Experience = () => {
     },
     {
       id: 9,
-      src: php,
-      title: 'php',
+      src: vite,
+      title: 'vite',
       style: 'shadow-purple-200'
     }
   ];
